@@ -8,3 +8,7 @@ function logDriversByHometown(drivers, location) {
     console.log(driver.name)
   }})
 }
+
+function driversByRevenue(drivers) {
+  
+}
