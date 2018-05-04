@@ -9,9 +9,9 @@ function logDriversByHometown(drivers, location) {
   }})
 }
 
-// function driversByRevenue(drivers) {
-//   return drivers.sort(function (a,b))
-// }
+function driversByRevenue(drivers) {
+  return drivers.sort())
+}
 
 
 function totalRevenue(drivers) {
