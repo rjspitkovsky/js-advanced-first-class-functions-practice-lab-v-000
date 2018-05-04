@@ -20,7 +20,7 @@ function driversByName(drivers) {
   return newArray.sort(obj1, obj2) {
     let aName = obj1.name
     let bName = obj2.name
-    return aName.localeComape(bName)
+    return aName.localeCompare(bName)
   }
   // return drivers.sort(function (obj1, obj2) {
   //   let aName = a.name
