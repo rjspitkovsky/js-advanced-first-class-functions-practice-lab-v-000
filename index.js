@@ -9,9 +9,9 @@ function logDriversByHometown(drivers, location) {
   }})
 }
 
-function driversByRevenue(drivers) {
-  return drivers.sort())
-}
+// function driversByRevenue(drivers) {
+//   return drivers.sort())
+// }
 
 
 function totalRevenue(drivers) {
@@ -24,5 +24,5 @@ function averageRevenue(drivers) {
   let average = 0
   drivers.forEach(function (driver){average += driver.revenue})
   average = average/drivers.length
-  return average 
+  return average
 }
