@@ -12,10 +12,16 @@ function logDriversByHometown(drivers, location) {
 function driversByRevenue(drivers) {
   const newArray = [...drivers]
   return newArray.sort(function(obj1,obj2) {return obj1.revenue - obj2.revenue})
-  
+
 }
 
 function driversByName(drivers) {
+  const newArray = [...drivers]
+  return newArray.sort(obj1, obj2) {
+    let aName = obj1.name
+    let bName = obj2.name
+    return aName.localeComape(bName)
+  }
   // return drivers.sort(function (obj1, obj2) {
   //   let aName = a.name
   //   let bName = b.name
