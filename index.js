@@ -10,5 +10,12 @@ function logDriversByHometown(drivers, location) {
 }
 
 function driversByRevenue(drivers) {
-  
+  return drivers.sort(function (a,b))
+}
+
+
+function totalRevenue(drivers) {
+  let sum = 0
+  drivers.forEach(function (driver){ sum += driver.revenue})
+  return sum 
 }
