@@ -14,11 +14,11 @@ function driversByRevenue(drivers) {
 }
 
 function driversByName(drivers) {
-  return drivers.sort(function (obj1, obj2) {
-    let aName = a.name
-    let bName = b.name
-    return aName.localeCompare(bName)
-  })
+  // return drivers.sort(function (obj1, obj2) {
+  //   let aName = a.name
+  //   let bName = b.name
+  //   return aName.localeCompare(bName)
+  // })
 }
 
 
