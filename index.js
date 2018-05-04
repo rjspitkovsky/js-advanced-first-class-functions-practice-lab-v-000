@@ -19,3 +19,10 @@ function totalRevenue(drivers) {
   drivers.forEach(function (driver){ sum += driver.revenue})
   return sum
 }
+
+function averageRevenue(drivers) {
+  let average = 0
+  drivers.forEach(function (driver){average += driver.revenue})
+  average = average/drivers.length
+  return average 
+}
