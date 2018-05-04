@@ -10,11 +10,11 @@ function logDriversByHometown(drivers, location) {
 }
 
 function driversByRevenue(drivers) {
-  // drivers.sort(function(a,b) {return a.revenue - b.revenue})
+  return drivers.sort(function(obj1,obj2) {return obj1.revenue - obj2.revenue})
 }
 
 function driversByName(drivers) {
-  drivers.sort(function (a, b) {
+  return drivers.sort(function (obj1, obj2) {
     let aName = a.name
     let bName = b.name
     return aName.localeCompare(bName)
