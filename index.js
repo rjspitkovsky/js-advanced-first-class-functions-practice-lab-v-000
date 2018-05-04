@@ -18,9 +18,9 @@ function driversByRevenue(drivers) {
 function driversByName(drivers) {
   const newArray = [...drivers]
   return newArray.sort(function (obj1, obj2) {
-    let aName = obj1.name
-    let bName = obj2.name
-    return aName.localeCompare(bName)
+    // let aName = obj1.name
+    // let bName = obj2.name
+    return obj1.name.localeCompare(obj2.name)
   }
   // return drivers.sort(function (obj1, obj2) {
   //   let aName = a.name
