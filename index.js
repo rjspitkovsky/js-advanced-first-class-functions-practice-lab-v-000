@@ -10,8 +10,9 @@ function logDriversByHometown(drivers, location) {
 }
 
 function driversByRevenue(drivers) {
-  const newArray = drivers.sort(function(obj1,obj2) {return obj1.revenue - obj2.revenue})
-  return newArray
+  const newArray = [...drivers]
+  return newArray.sort(function(obj1,obj2) {return obj1.revenue - obj2.revenue})
+  
 }
 
 function driversByName(drivers) {
